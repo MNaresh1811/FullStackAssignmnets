@@ -1,0 +1,56 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "text": "Shall do at 6 pm"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "text": "Track the new submissions"
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain",
+      "id": 3
+    },
+    {
+      "title": "Naresh",
+      "text": "First",
+      "id": 4
+    },
+    {
+      "title": "Naresh2",
+      "text": "new one",
+      "id": 5
+    },
+    {
+      "title": "Naresh new new",
+      "text": "one to remember",
+      "id": 6
+    },
+    {
+      "title": "new one",
+      "text": "text",
+      "id": 7
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 8
+    },
+    {
+      "title": "Read Angular 1 blog",
+      "text": "Shall do at 10.30 pm",
+      "state": "not-started",
+      "id": 9
+    },
+    {
+      "title": "Read Angular 1 blog",
+      "text": "Shall do at 10.30 pm",
+      "state": "not-started",
+      "id": 10
+    }
+  ]
+}

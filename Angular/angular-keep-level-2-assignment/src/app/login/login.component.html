@@ -1,0 +1,38 @@
+<div class="login-c-form-wrapper">
+  <form class='login-form' (submit)='loginSubmit()' >
+    <label form='username'>Username</label>
+    <br>
+    <mat-form-field>
+      <input type='text' name='username' class="username" matInput [formControl]='username'>
+      <mat-error *ngIf = 'username.invalid'>{{getUserNameErrorMessage()}}</mat-error>
+    </mat-form-field>
+    <br>
+
+    <label form='password'>Password</label>
+    <br>
+    <mat-form-field>
+      <input type='text' name='password' class="password" matInput type = 'password' [formControl]='password'>
+      <mat-error *ngIf = 'password.invalid'>{{getPasswordErrorMessage()}}</mat-error>
+    </mat-form-field>
+    <br>
+    <button type="submit" mat-button>Submit</button>
+    <br>
+    <mat-error *ngIf = 'submitMessage' class="error-message">{{submitMessage}}</mat-error>
+</form>
+</div>
+
+<!-- <div class="login c-form-wrapper">
+  <form #loginForm='ngForm'(ngSubmit)='loginSubmit(loginForm)'>
+    <label for='username'>Username</label>
+    <br>
+    <input type='text' name='username' [(ngModel)]='username' #userName='ngModel'>
+    <br>
+    <label form='password'></label>
+    <br>
+    <input type='text' name='password' [(ngModel)]='password' #userPassword='ngModel'>
+    <br>
+    <button type='submit'>Submit</button>
+    <br>
+    <strong *ngIf='submitMessage'>{{submitMessage}}</strong>
+  </form>
+</div> -->
